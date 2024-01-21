@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(246, 246, 241);
+}
+
+#outerdiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+#innerdiv {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+p {
+  font-size: 12px;
+  font-family: Lexend Deca;
+  font-weight: 400;
+  color: white;
+}
+
+h2 {
+  font-family: Big Shoulders Display;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+}
+
+#innerone {
+  background-color: hsl(31, 77%, 52%);
+  box-sizing: border-box;
+  padding: 40px;
+  width: 233px;
+  height: 400px;
+}
+
+#innerone img {
+  width: 50px;
+}
+
+#innerone div {
+  display: inline-block;
+  margin-bottom: 60px;
+}
+
+#innertwo {
+  background-color: hsl(184, 100%, 22%);
+  box-sizing: border-box;
+  padding: 40px;
+  width: 233px;
+  height: 400px;
+}
+
+#innertwo div {
+  display: inline-block;
+  margin-bottom: 60px;
+}
+
+#innertwo img {
+  width: 50px;
+}
+
+#innerthree {
+  background-color: hsl(179, 100%, 13%);
+  box-sizing: border-box;
+  padding: 40px;
+  width: 233px;
+  height: 400px;
+}
+
+#innerthree div {
+  display: inline-block;
+  margin-bottom: 60px;
+}
+
+#innerthree img {
+  width: 50px;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+#innerone button {
+  color: hsl(31, 77%, 52%);
+}
+
+#innertwo button {
+  color: hsl(184, 100%, 22%);
+}
+
+#innerthree button {
+  color: hsl(179, 100%, 13%);
+}
